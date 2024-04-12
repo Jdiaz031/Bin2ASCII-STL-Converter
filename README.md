@@ -8,12 +8,14 @@ In order to install the converter, install the Eigen3 dependency with:
 sudo apt install libeiegen3-dev
 ```
 
-Afterwards, run the following scripts after downloading the repository:
+Afterwards, run the following scripts:
 
 ```
+git clone https://github.com/Jdiaz031/Bin2ASCII-STL-Converter.git
+cd Bin2ASCII-STL-Converter
 mkdir build
 cd build
-cmake ../Bin2ASCII-STL-Converter
+cmake ../
 sudo make install
 ```
 
