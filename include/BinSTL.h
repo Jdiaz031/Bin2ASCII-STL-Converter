@@ -13,10 +13,6 @@ class BinarySTL{
     int Faces;
     public:
         void OpenBinaryFile(std::string);
-        void DispNorm();
-        void DispVertex1();
-        void DispVertex2();
-        void DispVertex3();
         Eigen::ArrayXXf Vertex1;
         Eigen::ArrayXXf Vertex2;
         Eigen::ArrayXXf Vertex3;

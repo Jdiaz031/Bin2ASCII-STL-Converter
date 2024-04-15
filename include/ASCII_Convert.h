@@ -12,8 +12,6 @@
 class ASCII{
     std::string STL_FILENAME;
     std::ofstream STL_FILE;
-    private:
-
     public:
         void Bin2ASCII(std::string,const BinarySTL&);
 
