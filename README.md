@@ -19,7 +19,7 @@ cmake ../
 sudo make install
 ```
 
-# Using the Conerter
+# Using the Converter
 In order to run the converter, use the following format in terminal.
 
 ```
